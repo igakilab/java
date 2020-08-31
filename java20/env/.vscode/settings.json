@@ -13,6 +13,7 @@
     "**/.project": true,
     "**/.settings": true,
   },
+  "java.server.launchMode": "Standard",
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Default Light+",
   "workbench.editor.labelFormat": "short", // タブに表示する文字列の設定

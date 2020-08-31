@@ -11,6 +11,7 @@ alias code='code.cmd'
 #alias javac='javac -J-Dfile.encoding=UTF-8'
 if [ $BASH = "/usr/bin/bash" ]; then
     alias javac='javac -encoding UTF-8'
+    alias java='java -Dfile.encoding=SHIFT-JIS'
 else
     alias javac='javac -J-Dfile.encoding=UTF-8'
     alias java='java -Dfile.encoding=UTF-8'
