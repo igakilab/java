@@ -1,7 +1,7 @@
 {
 
   "files.encoding": "utf8",
-  "java.home": "c:\\oit\\java21\\amazonjdk11.0.11_9",
+  "java.home": "c:\\oit\\java21\\amazonjdk11.0.12_7",
   "java.trace.server": "messages",
   "java.errors.incompleteClasspath.severity": "ignore",
   "extensions.ignoreRecommendations": true,
@@ -58,5 +58,6 @@
   "editor.matchBrackets": "always", // 対応する括弧の強調表示をオンに
   "git.enabled": false,
   "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false
+  "telemetry.enableCrashReporter": false,
+  "workbench.startupEditor": "newUntitledFile"
 }

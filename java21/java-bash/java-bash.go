@@ -8,7 +8,7 @@ import (
 
 func main() {
 	classname := `java`
-	pgdir := `C:\oit\java21\PortableGit-2.25.0-64`
+	pgdir := `C:\oit\java21\PortableGit-2.32.0.2-64`
 
 	os.Setenv("CHERE_INVOKING", "1")
 	os.Setenv("MSYSTEM", "MINGW64")
