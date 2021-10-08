@@ -1,6 +1,8 @@
 #!/bin/bash
 # Written by Yasuharu Mizutani.
 # Modified by Hiroshi Igaki.
+# 実行方法： shusseki or shusseki -in
+# 後者の場合，kadaihostの演習室用PCのIPが利用されるようになる
 
 GB='\e[1;32m'
 GE='\e[m'
