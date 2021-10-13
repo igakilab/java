@@ -13,8 +13,8 @@ RE='\e[m'
 HISTFILE="$HOME/kadai/$COURSEYEAR/.log/.${CLASSNAME}_bash_history.$HISTDATE"
 
 if [ "$#"  = "1" ] && [ "$1" = "-in" ]; then
-    echo "授業中オプションを確認しました．授業時間外の場合は一度停止してオプションなしで再実行してください"
-    echo "演習室のマシンを利用して提出を行うため，たまにrsyncが失敗することがあります"
+    echo "授業中オプションを確認しました．授業時間外の場合は停止してオプションなしでshussekiコマンドを再実行してください"
+    echo "ここでは演習室のマシンを利用して提出を行うため，たまにrsyncが失敗することがあります"
     export KADAI_HOST_IN=ON
 fi
 
