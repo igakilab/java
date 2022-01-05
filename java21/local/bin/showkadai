@@ -16,12 +16,12 @@ help(){
 	  putkadaiで課題が提出できていることの確認に用います．
 	
 	使い方:
-	  % showkadai 授業名 提出ディレクトリ
+	  $ showkadai 授業名 提出ディレクトリ
 	
 	例:
-	  % showkadai pint21 lec05
-	  % showkadai pint21 report1
-	  % showkadai pint21 test2
+	  $ showkadai java21 lec05
+	  $ showkadai java21 test01
+	  $ showkadai java21 test03
 	
 	EOF
 }
@@ -52,7 +52,7 @@ fi
 # sshの接続に失敗したときはエラーメッセージを表示したくないので
 # 以下のような形にしている．
 if ! sshrun "[ -d ${submitdir} ]"; then
-    echo "Error: ファイルサーバに接続できない，または，ファイルサーバ上に${submitdir}が存在しません．"
+    echo "Error: サーバに接続できない，または，ファイルサーバ上に${submitdir}が存在しません．"
     exit 1
 fi
 
