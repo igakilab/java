@@ -16,12 +16,12 @@ help(){
 	  putkadaiで課題が提出できていることの確認に用います．
 	
 	使い方:
-	  $ showkadai 授業名 提出ディレクトリ
+	  $ showkadai 授業名(javaの後に年度2桁) 提出ディレクトリ
 	
 	例:
-	  $ showkadai java21 lec05
-	  $ showkadai java21 test01
-	  $ showkadai java21 test03
+	  $ showkadai java22 lec05
+	  $ showkadai java23 test01
+	  $ showkadai java24 test03
 	
 	EOF
 }
