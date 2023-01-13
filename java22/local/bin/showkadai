@@ -91,7 +91,7 @@ echo "左(このパソコン)と右(ファイルサーバ)が一致している�
 echo "* ファイル名が長い場合，末尾が省略されます．"
 echo -e "* 左右で一致していない場合，<>|のいずれかが中央に表示されます．このときは${RB}shusseki コマンドが正常に実行できていない${RE}可能性が高いです．"
 echo "* なお，msystem上の表示は決まった時刻にしか更新されないため，右(ファイルサーバ)と必ずしも一致しません．特に締め切りを過ぎて提出された場合は回収されないため，msystemにも表示されません．"
-diff -y -W 83 <(eval "(cd ;${LSCMD})" | post_filter_diff) <(sshrun "${LSCMD}" | post_filter_diff)
+diff -y -W 83 <(eval "(cd ;${LSCMD})" | post_filter_diff | sort -k2) <(sshrun "${LSCMD}" | post_filter_diff | sort -k2)
 
 exit 
 
