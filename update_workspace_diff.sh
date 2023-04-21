@@ -66,6 +66,7 @@ function ConfirmVersionUpdate() {
 function RsyncEnvironment() {
   echo "$1から$2への同期を行います $3"
   rsync -avm --checksum $3 \
+        --exclude='**/bin/'  \
         --include='*/'  \
         --include='.version'  \
         --include='settings.json'  \
@@ -80,7 +81,7 @@ function RsyncEnvironment() {
 
 function UpdateVersionNumber() {
   echo "./log/.versionを更新します"
-  echo [${COURSEYEAR}_workspace]`date "+%Y%m%d%H%M"` > ${INSTALLED}.log/.version
+  echo [isdev_workspace]`date "+%Y%m%d%H%M"` > ${INSTALLED}.log/.version
 }
 
 function CheckDiff() {
