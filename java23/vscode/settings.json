@@ -39,4 +39,5 @@
     "**/bin/**",
     "*.class",
   ],
+  "workbench.startupEditor": "none",
 }
