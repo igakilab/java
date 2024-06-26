@@ -2,7 +2,7 @@
   "terminal.integrated.defaultProfile.windows": "GitBash",
   "terminal.integrated.profiles.windows": {
     "GitBash": {
-      "path": "C:\\oit\\java23-byod\\PortableGit-2.42.0-64\\bin\\bash.exe",
+      "path": "C:\\oit\\java24-byod\\PortableGit-2.42.0-64\\bin\\bash.exe",
       "args": [
         "-l"
       ]
@@ -12,7 +12,7 @@
     "MSYSTEM": "MINGW64",
     "CHERE_INVOKING": "1"
   },
-  "java.jdt.ls.java.home": "c:\\oit\\java23-byod\\amazonjdk17.0.8_8",
+  "java.jdt.ls.java.home": "c:\\oit\\java24-byod\\amazonjdk21.0.3_9",
   "java.jdt.ls.vmargs": "-noverify -Dfile.encoding=utf8 -Xmx1G -Xlog:jni+resolve=off", // -XX:+UseG1GC -XX:+UseStringDeduplication
   "java.debug.settings.vmArgs": "-Xlog:jni+resolve=off",
   "java.import.generatesMetadataFilesAtProjectRoot": false, //.projectなどの場所

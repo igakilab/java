@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ "$#"  = "1" ] && [ "$1" = "-v" ]; then
-    echo "java23"
+    echo "java24"
 else
     echo "java"
 fi
