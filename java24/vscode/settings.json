@@ -14,7 +14,7 @@
   },
   "java.jdt.ls.java.home": "c:\\oit\\java24-byod\\amazonjdk21.0.3_9",
   "java.jdt.ls.vmargs": "-noverify -Dfile.encoding=utf8 -Xmx1G -Xlog:jni+resolve=off", // -XX:+UseG1GC -XX:+UseStringDeduplication
-  "java.debug.settings.vmArgs": "-Xlog:jni+resolve=off",
+  "java.debug.settings.vmArgs": "-Xlog:jni+resolve=off -Dfile.encoding=COMPAT",
   "java.import.generatesMetadataFilesAtProjectRoot": false, //.projectなどの場所
   "java.semanticHighlighting.enabled": true,
   "java.trace.server": "messages",

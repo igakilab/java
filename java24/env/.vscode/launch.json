@@ -8,7 +8,6 @@
       "args": "",
       "console": "integratedTerminal",
       "stopOnEntry": false,
-      "encoding": "utf8",
       "classPaths": [
         "${workspaceFolder}\\bin"
       ]
